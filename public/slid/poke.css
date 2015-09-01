@@ -1,0 +1,239 @@
+@import url(featured_slide.css);
+body{
+	margin:0;
+	padding:0;
+	font-size:13px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#999;
+	background:url("/image/images00.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	}
+
+.header {
+	font-family:"QuicksandBook", Tahoma, Verdana, Arial, sans-serif;
+	font-size: 10px;
+	width: 100%;
+	padding: 30px 10px 20px;
+	margin: 0 auto;
+	border-radius: 0;
+	background: #FFF;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+
+.maincontainer{
+	background:#FFF;
+	width:70%;
+	height:1200px;
+	box-shadow:2px 2px 2px 2px;
+	alignment-adjust:central;
+	margin:0px 200px;
+    /*opacity: 0.6;
+    filter: alpha(opacity=60);*/
+}
+
+#innercontainer{
+	background:#059AD8;
+	margin:30px 200px;
+	width:70%;
+	height:10%;
+	float:inherit;
+}
+
+#site_title img {margin: -5px 200px; padding-top: 5px;}
+
+.logo {width: 960px; margin: auto; text-align: center; letter-spacing: 10px; padding: 40px 0}
+
+#container {
+     font-size: 1em;
+     width:860px;
+     height:200px;
+     background: #FFF;
+     padding: 15px 20px;
+     margin: auto;
+     position: relative;
+     clear: both
+ }
+
+#econtainer {
+    font-size: 1em;
+    width:760px;
+    height:150px;
+    background: #FFF;
+    padding: 15px 20px;
+    margin: auto;
+    position: relative;
+    clear: both
+}
+
+#slides {
+    display: none
+}
+
+#slides .slidesjs-navigation {
+    margin-top:5px;
+}
+
+a.slidesjs-next,
+a.slidesjs-previous,
+a.slidesjs-play,
+a.slidesjs-stop {
+    background-image: url("/img/btns-next-prev.png");
+    background-repeat: no-repeat;
+    display:block;
+    width:12px;
+    height:18px;
+    overflow: hidden;
+    text-indent: -9999px;
+    float: left;
+    margin-right:5px;
+}
+
+a.slidesjs-next {
+    margin-right:10px;
+    background-position: -12px 0;
+}
+
+a:hover.slidesjs-next {
+    background-position: -12px -18px;
+}
+
+a.slidesjs-previous {
+    background-position: 0 0;
+}
+
+a:hover.slidesjs-previous {
+    background-position: 0 -18px;
+}
+
+a.slidesjs-play {
+    width:15px;
+    background-position: -25px 0;
+}
+
+a:hover.slidesjs-play {
+    background-position: -25px -18px;
+}
+
+a.slidesjs-stop {
+    width:18px;
+    background-position: -41px 0;
+}
+
+a:hover.slidesjs-stop {
+    background-position: -41px -18px;
+}
+
+.slidesjs-pagination {
+    margin: 7px 0 0;
+    float: right;
+    list-style: none;
+}
+
+.slidesjs-pagination li {
+    float: left;
+    margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    background-image: url("/img/pagination.png");
+    background-position: 0 0;
+    float: left;
+    overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+    background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+    background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+    color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+    color: #9e2020
+}
+
+.navbar {
+    overflow: hidden
+}
+
+#slides {
+    display: none
+}
+
+.container {
+    margin: 0 auto
+}
+
+/* For tablets & smart phones */
+@media (max-width: 767px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container {
+        width: auto
+    }
+}
+
+/* For smartphones */
+@media (max-width: 480px) {
+    .container {
+        width: auto
+    }
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+    .container {
+        width: 724px
+    }
+}
+
+/* For larger displays */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px
+    }
+}
+
+#dinfo{
+    width:150%;
+    display: inline;
+    margin: auto;
+    font-size: 12px;
+    font-family: Arial, Helvetica, Sans-serif;
+    background-color: #222222;
+    color:#000000;
+}
+
+#lcontainer{
+    float: left;
+    width:40%;
+    overflow: auto;
+    background:#adadad;
+    margin: 0px 50px;
+}
+
+#rcontainer{
+    float:right;
+    width:40%;
+    overflow: auto;
+    margin-right: 50px;
+    background:#adadad;
+}

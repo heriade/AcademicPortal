@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navigation {
+	float: left;
+	list-style: none;
+	margin: 5px 0 0;
+	padding: 2px;
+	width:100%;
+}
+.navigation li {
+	width: 70%;
+	margin:15px;
+	padding:25px;
+	cursor:pointer;
+	color:#FFF;
+	display:block;
+	text-align:center;
+}
+
+.navigation li:hover{
+	color:#CCC;
+}
+.navigation li > a {
+	color: #b8c6ac;
+	font: bold 13px/24px Times, "Times New Roman", serif;
+	text-decoration: none;
+	text-shadow: 1px 1px #000;
+	text-transform: uppercase;
+	text-align:center;
+	cursor:pointer;
+}
+
+.navigation li > a:hover {
+	color:#FFF;
+}
+
+.navigation li.active > a, .navigation > a:hover {
+	color: #fff;
+}
+.navigation li > div {
+	background-color: #888888;
+	display: none;
+	width: 110px;
+	position: absolute;
+	left: 0px;
+	top: 24px;
+}
+.navigation li:hover > div {
+	display: block;
+}
+.navigation li > div a {
+	color: #b8c6ac;
+	font: bold 13px/24px "Times New Roman", Times, serif;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: none;
+}
+.navigation li > div a:hover {
+	color: #fff;
+}
+
+		#menucon{
+            max-width: 1280px;
+            width: 100%;
+            margin: 0px auto;
+        }
+        #demo_box{
+            width: 180px;
+        }
+        .fa{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        .fa-bars{
+            color: #3498db;
+        }
+        pre{
+            font-family: Consolas,Liberation Mono,Courier,monospace;
+            font-size: 10px;
+        }
+
+.fright, .fleft{display:block; overflow:hidden}
+
+header#navtop { margin-bottom: 2em; clear: both; overflow: hidden; }
+    header nav ul { float: left; overflow: hidden; padding: 0 3em 0 2em; border-left: 1px solid #ddd; line-height: 2em; }
+	header nav li > a{text-decoration:none;}
+nav a, menu a { text-decoration: none; color: #555; }
+.navactive { color: #0078CF }
+.logo {margin-bottom: 3em;}
+.logo:hover {background: none;}
+
+a img:hover {
+	*zoom: 1;
+	opacity: 0.7;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 70);
+	filter: alpha(opacity = 70);}
